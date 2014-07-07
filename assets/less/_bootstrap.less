@@ -1,0 +1,180 @@
+//
+// Bootstrap
+//
+// Comment out any unused components
+// --------------------------------------------------
+
+// Core variables and mixins
+@import "../vendor/bootstrap/less/variables";
+@import "_variables"; // Bootstrap variable overrides and custom variables
+@import "../vendor/bootstrap/less/mixins";
+
+// Reset
+@import "../vendor/bootstrap/less/normalize";
+@import "../vendor/bootstrap/less/print";
+
+// Core CSS
+@import "../vendor/bootstrap/less/scaffolding";
+@import "../vendor/bootstrap/less/type";
+@import "../vendor/bootstrap/less/code";
+@import "../vendor/bootstrap/less/grid";
+@import "../vendor/bootstrap/less/tables";
+@import "../vendor/bootstrap/less/forms";
+@import "../vendor/bootstrap/less/buttons";
+
+// Components
+@import "../vendor/bootstrap/less/component-animations";
+@import "../vendor/bootstrap/less/glyphicons";
+@import "../vendor/bootstrap/less/dropdowns";
+@import "../vendor/bootstrap/less/button-groups";
+@import "../vendor/bootstrap/less/input-groups";
+@import "../vendor/bootstrap/less/navs";
+@import "../vendor/bootstrap/less/navbar";
+@import "../vendor/bootstrap/less/breadcrumbs";
+@import "../vendor/bootstrap/less/pagination";
+@import "../vendor/bootstrap/less/pager";
+@import "../vendor/bootstrap/less/labels";
+@import "../vendor/bootstrap/less/badges";
+@import "../vendor/bootstrap/less/jumbotron";
+@import "../vendor/bootstrap/less/thumbnails";
+@import "../vendor/bootstrap/less/alerts";
+@import "../vendor/bootstrap/less/progress-bars";
+@import "../vendor/bootstrap/less/media";
+@import "../vendor/bootstrap/less/list-group";
+@import "../vendor/bootstrap/less/panels";
+@import "../vendor/bootstrap/less/wells";
+@import "../vendor/bootstrap/less/close";
+
+// Components w/ JavaScript
+@import "../vendor/bootstrap/less/modals";
+@import "../vendor/bootstrap/less/tooltip";
+@import "../vendor/bootstrap/less/popovers";
+@import "../vendor/bootstrap/less/carousel";
+
+// Utility classes
+@import "../vendor/bootstrap/less/utilities";
+@import "../vendor/bootstrap/less/responsive-utilities";
+
+
+
+// import plugins
+@import "../vendor/fancybox/source/jquery.fancybox.css";
+@import "../vendor/fancybox/source/jquery.fancybox.css";
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700');
+
+
+/* PAGE MODULES */
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	color: #005b95;
+	background: url('../img/psbg.png');
+}
+h1, .h1{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+h2, .h2{
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+p {
+	margin: 0 0 15px;
+}
+#main-header{
+	background: #0072ba;
+}
+#main-nav{
+	background: #005b95;
+}
+.content-block{
+	background: transparent;
+	padding: 30px 0px;
+}
+.service-block{
+	background: transparent;
+	padding: 30px 0px;
+}
+.content-block img{
+	margin-bottom: 30px;
+}
+.gallery-block{
+	background: transparent;
+	padding: 30px 0px;
+}
+.gallery-block img{
+	margin-bottom: 30px;
+}
+.form-block{
+	background: transparent;
+	padding: 30px 0px;
+}
+.map-block{
+	background: transparent;
+	padding: 30px 0px;
+}
+.footer-block{
+	background: transparent;
+	padding: 30px 0px;
+}
+.copyright-block{
+	background: #005b95;
+	height:60px;
+	line-height:60px;
+	color:#fff;
+}
+.copyright-block a{
+	color:#fff;
+}
+#map{
+	height:400px;	
+}
+#footer-map{
+	height:250px;	
+}
+[class*="animate-"] .overlay {
+	background: #005995;
+}
+
+/* NAVIGATION */
+.navbar-nav>li>a {
+	line-height: 60px;
+	height: 60px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	color: #005b95;
+	background-color: #149cd7;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+	color: #005b95;
+	background-color: #149cd7;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: #149cd7;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+	background-color: #149cd7;
+}
+
+/* RESPONSIVE */
+@media (min-width: 1230px) { }
+
+@media (min-width: 1022px) { }
+
+@media (max-width: 1021px) { }
+
+@media (min-width: 798px) { }
+
+@media (max-width: 797px) { }
+
+@media (max-width: 598px) { }
+
+@media (max-width: 510px) { }
+
+@media (min-width: 798px) and (max-width: 1021px) { }
+
+@media (min-width: 1022px) and (max-width: 1229px) { }
